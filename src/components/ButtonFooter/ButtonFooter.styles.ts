@@ -36,9 +36,10 @@ export const useStyles = makeStyles({
     "&.MuiButton-sizeLarge": {
       minWidth: "120px",
       fontSize: "12px",
+      fontWidth: 500,
       height: "40px",
       marginTop: "-50px",
-      marginLeft: "28%",
+      marginLeft: "33%",
     },
     
   },

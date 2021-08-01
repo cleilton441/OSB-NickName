@@ -26,7 +26,7 @@ export const InputConfig : React.FC = () => {
             <TextField
             id="InputConfig"
             variant="outlined" 
-            placeholder={"Seu nome "} 
+            placeholder={"Seu apelido "} 
             className={style.input}
             error={visibility}
             helperText={ visibility ? "Apenas letras" : "" }

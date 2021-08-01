@@ -17,14 +17,15 @@ export const NickName: React.FC = () =>{
         <PageContainer>
            <ProcessPageLayout 
             header={
+                    <div>
                     <ProcessDescriptionHeader 
                     title="Editar Conta" 
                     />
-                    
-                    }
+                   <Avatar/>
+                   </div>
+                    } 
                     main={
                         <div className={styles.midcontent}>
-                            <Avatar/>
                             <ButtonWithFloatingIcon  size="small"  icon={IconCheck} />
                             <InputConfig/>
                         </div>

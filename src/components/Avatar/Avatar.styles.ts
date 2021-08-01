@@ -4,9 +4,11 @@ export const useStyles = makeStyles({
     ContainerPage: {
         width: 100,
         height: 100,
-        padding: 0,
-        position: 'absolute',
-        marginTop: '-27%',
+        padding: 100,
+        alignItems: 'center',
+        margin: 3,
+        display: 'flex',
+        position:'absolute',
     },
     img:{
         width: 100,

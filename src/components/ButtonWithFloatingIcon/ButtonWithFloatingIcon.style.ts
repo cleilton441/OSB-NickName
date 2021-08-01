@@ -31,7 +31,11 @@ export const useStyles = makeStyles({
     "&.MuiButton-sizeSmall": {
       width: "70px",
       fontSize: "8px",
-      height: "20px"
+      height: "20px",
+      display: 'flex',
+      alignItems: 'center',
+      marginLeft: 20,
+
     },
     "&.MuiButton-sizeLarge": {
       minWidth: "120px",
