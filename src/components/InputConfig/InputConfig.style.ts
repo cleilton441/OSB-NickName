@@ -16,7 +16,9 @@ export const useStyle = makeStyles({
     label: {
         marginLeft: 8,
         fontWeight: 600,
-        fontSize: 12,
+        width: 124,
+        height: 16,
+        fontSize: 11,
         color: textColors.gray
     },
 })

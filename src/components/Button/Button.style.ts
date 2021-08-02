@@ -38,6 +38,8 @@ export const useStyles = makeStyles<Theme, ButtonStylesProps, "button">({
     "& .MuiButton-label": {
       textTransform: "none",
       textAlign: "center",
+      width: 40,
+      height: 12,
     },
 
     "&.MuiButton-sizeSmall": {

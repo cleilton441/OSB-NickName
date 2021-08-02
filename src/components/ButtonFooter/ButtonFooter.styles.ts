@@ -21,6 +21,7 @@ export const useStyles = makeStyles({
     border: `0.5px solid ${colors.background}`,
     minWidth: 70,
     fontSize: 9,
+    fontWeight: 500,
     marginTop: '8%',
     position: 'absolute',
     borderRadius: 4,

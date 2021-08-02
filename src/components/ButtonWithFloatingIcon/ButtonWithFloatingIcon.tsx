@@ -30,8 +30,10 @@ export const ButtonWithFloatingIcon: React.FC<ButtonWithFloatingIconProps> = ({
         onClick={onClick}
       >
         <Box className={styles.icon}/>
+        <div className={styles.alterar}>
         Alterar Foto
         {children}
+        </div>
     </Button>
   );
 };

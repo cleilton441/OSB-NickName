@@ -21,12 +21,15 @@ export const useStyles = makeStyles({
     border: `0.5px solid ${colors.background}`,
     minWidth: 70,
     fontSize: 9,
+    fontWeight: 500,
     marginTop: '8%',
     position: 'absolute',
     borderRadius: 4,
     "& .MuiButton-label": {
       textTransform: "none",
       textAlign: "center",
+      width: 51,
+      height: 11,
     },
     "&.MuiButton-sizeSmall": {
       width: "70px",
@@ -45,6 +48,10 @@ export const useStyles = makeStyles({
       marginLeft: "28%",
     },
     
+  },
+  alterar:{
+    width: 51,
+    height: 11,
   },
 
   icon: {
@@ -70,4 +77,5 @@ export const useStyles = makeStyles({
       width: "100%",
     },
   },
+  
 });

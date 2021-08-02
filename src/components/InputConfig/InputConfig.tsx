@@ -26,11 +26,12 @@ export const InputConfig : React.FC = () => {
             <TextField
             id="InputConfig"
             variant="outlined" 
-            placeholder={"Seu apelido "} 
+            placeholder={"Apelido da conta "} 
             className={style.input}
             error={visibility}
             helperText={ visibility ? "Apenas letras" : "" }
-            onChange={(e) => setName(e.target.value)} 
+            onChange={(e) => setName(e.target.value)}
+            defaultValue={"Pedro Victor Nascimento Oliveira"} 
               />
         </div>
     )
