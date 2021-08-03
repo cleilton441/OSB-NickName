@@ -8,7 +8,7 @@ import { InputConfig } from '../../../../components/InputConfig';
 import { Avatar } from '../../../../components/Avatar';
 import { ButtonWithFloatingIcon } from '../../../../components/ButtonWithFloatingIcon/ButtonWithFloatingIcon';
 import IconCheck from '../../../../_assets/img/IconCheck.svg'
-import { ButtonFooter } from '../../../../components/ButtonFooter';
+import { Footerbutton } from '../../../../components/Footerbutton/Footerbutton';
 
 
 export const NickName: React.FC = () =>{
@@ -32,7 +32,7 @@ export const NickName: React.FC = () =>{
                        
                     }
                     footer={
-                        <ButtonFooter size="large" icon={IconCheck}/>
+                        <Footerbutton/>
                     }
             />
         </PageContainer>

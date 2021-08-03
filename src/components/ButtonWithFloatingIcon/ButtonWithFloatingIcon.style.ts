@@ -37,7 +37,9 @@ export const useStyles = makeStyles({
       height: "20px",
       display: 'flex',
       alignItems: 'center',
-      marginLeft: 20,
+      marginLeft: 0,
+      justifeContent: 'center',
+
 
     },
     "&.MuiButton-sizeLarge": {
