@@ -15,10 +15,10 @@ export const useStyle = makeStyles({
 
     label: {
         marginLeft: 8,
-        fontWeight: 600,
-        width: 124,
+        fontWeight: 500,
+        width: 126,
         height: 16,
-        fontSize: 11,
-        color: textColors.gray
+        fontSize: 12,
+        color: textColors.gray,
     },
 })

@@ -25,6 +25,9 @@ export const useStyles = makeStyles<typeof theme, StylesProps>({
     backgroundColor: "#FFFFFF",
     padding: padding,
     marginBottom: "-26px",
+    justifyContent: 'center',
+    display: 'flex',
+    alignItems: 'center',
   },
   footer: {
     width: "100%",

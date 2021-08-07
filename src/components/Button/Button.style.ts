@@ -46,7 +46,6 @@ export const useStyles = makeStyles<Theme, ButtonStylesProps, "button">({
       fontSize: '10px',
       height: 25,
       width: 79,
-      marginLeft: '30%',
       
     },
     "& .MuiButton-iconSizeSmall": {

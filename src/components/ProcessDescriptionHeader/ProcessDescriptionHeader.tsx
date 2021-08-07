@@ -4,7 +4,6 @@ import { useStyles } from "./ProcessDescriptionHeader.style";
 import cancel from '../../_assets/img/Close.svg'
 import {Button} from '../Button/Button'
 
-
 interface TitleAndDescritionProps {
   title: string;
   subtitle?: string;
@@ -15,9 +14,6 @@ interface TitleAndDescritionProps {
 
 export const ProcessDescriptionHeader = ({
   title,
-  subtitle,
-  description,
-  name,
 
 }: TitleAndDescritionProps) => {
   const styles = useStyles();
@@ -25,35 +21,19 @@ export const ProcessDescriptionHeader = ({
     <Box>
       <Typography id="pd-title" variant="h6" className={styles.title}>
         {title}
+        <div className={styles.but}>
           <Button
                   palette="secondary"
                   size="small"
                   startIcon={<img src={cancel} alt="cancel"/>}
                   onClick={()=> console.log("Cancelar")}
                 >
+                  <div className={styles.cancel}>
                   Cancelar
+                  </div>
           </Button>
+          </div>
       </Typography>
-      {subtitle && (
-        <Typography
-          id="pd-subtitle"
-          variant="subtitle1"
-          className={styles.subtitle}
-        >
-          <strong>{subtitle}</strong>
-        </Typography>
-      )}
-      {description && (
-        <Typography
-          id="pd-description"
-          variant="body1"
-          className={styles.description}
-        >
-          <Typography className={styles.desc}>{description}</Typography>
-          <Typography className={styles.name}>{name}</Typography>
-        </Typography>
-      )}
-       
     </Box>
     
   );

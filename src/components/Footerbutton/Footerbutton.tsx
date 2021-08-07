@@ -21,6 +21,7 @@ export const Footerbutton: React.FC<ProcessPageFooterProps> = ({
     <Box className={styles.buttonsWrapper}>
       <Button
         palette="secondary"
+        size="large"
         startIcon={<img className={styles.nextlogo} src={iconcheck} alt="logo" />}
         onClick={onPreviousButtonClick} 
       >

@@ -36,6 +36,9 @@ export const useStyles = makeStyles({
   },
 
   nextlogo:{
-    marginTop: 0,
+    marginTop: '-2px',
+    width: 22,
+    height: 22,
+
   }
 });
