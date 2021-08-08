@@ -15,6 +15,7 @@ export const useStyles = makeStyles({
    textAlign: 'center',
    display: 'flex',
    alignItems: 'center',
+   color: '#555555',
   },
   but:{
     textAlign: 'center',
